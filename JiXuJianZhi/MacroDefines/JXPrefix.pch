@@ -1,0 +1,55 @@
+//
+//  JXPrefix.pch
+//  JiXuJianZhi
+//
+//  Created by John Mr on 2020/4/24.
+//  Copyright © 2020 oneteam. All rights reserved.
+//
+
+#ifndef JXPrefix_pch
+#define JXPrefix_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// QLNetworking
+#import "QLNetworking.h"
+#import "JXResponseHandle.h"
+#import "JXNetworkConsts.h"
+
+// Macro defines
+#import "JXNotificationDefines.h"
+#import "JXHelperDefines.h"
+#import "JXLayoutDefines.h"
+
+// Layout
+#import <HandyFrame/UIView+LayoutMethods.h>
+#import <Masonry.h>
+#import "JXLayoutDefines.h"
+
+// 常用的tools
+#import "JXCommonTool.h"
+
+// EXTScope
+#import "EXTScope.h"
+
+// color
+#import "JXColorDefines.h"
+
+// MBProgressHUD
+#import <MBProgressHUD/MBProgressHUD.h>
+
+// SDWebImage
+#import <SDWebImage/UIImageView+WebCache.h>
+
+// KVC
+#import <MJExtension/MJExtension.h>
+
+#import "NSMutableDictionary+Safety.h"
+
+
+#endif
+
+#endif /* JXPrefix_pch */
